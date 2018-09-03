@@ -21,9 +21,7 @@ chooses randomly amongst all non-visited links across all
 the webs.
 
 If you want to dump the contents of the spider.sqlite file, you can 
-run spdump.py.
-
-This shows the number of incoming links, the old page rank, the new page
+run spdump.py. This shows the number of incoming links, the old page rank, the new page
 rank, the id of the page, and the url of the page. The spdump.py program
 only shows pages that have at least one incoming link to them.
 
