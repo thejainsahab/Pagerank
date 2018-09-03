@@ -9,8 +9,7 @@ process.
 This program crawls a web site and pulls a series of pages into the
 database, recording the links between pages.
 
-In this sample run, we told it to crawl a website and retrieve two 
-pages. If you restart the program again and tell it to crawl more
+If you restart the program again and tell it to crawl more
 pages, it will not re-crawl any pages already in the database. Upon 
 restart it goes to a random non-crawled page and starts there. So 
 each successive run of spider.py is additive.
@@ -31,7 +30,7 @@ Once you have a few pages in the database, you can run Page Rank on the
 pages using the sprank.py program. You simply tell it how many Page
 Rank iterations to run.
 
-You can dump the database again to see that page rank has been updated:
+You can dump the database again to see that page rank has been updated.
 
 You can run sprank.py as many times as you like and it will simply refine
 the page rank the more times you run it. You can even run sprank.py a few times
