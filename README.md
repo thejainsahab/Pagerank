@@ -1,6 +1,7 @@
 # Pagerank
 A simple python scraper combined with a program to rank all the links on a website according to the Pagerank algorithm.
 Simple Python Search Spider and Page Ranker.
+This program uses BeautifulSoup library. Make sure it is installed on your system before 
 
 This is a set of programs that emulate some of the functions of a 
 search engine. They store their data in a SQLITE3 database named
